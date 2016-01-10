@@ -44,6 +44,11 @@
         <dependencies>
             <dependency>
                 <groupId>org.vesalainen</groupId>
+                <artifactId>dev</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.vesalainen</groupId>
                 <artifactId>test</artifactId>
                 <version>1.0.0</version>
             </dependency>
