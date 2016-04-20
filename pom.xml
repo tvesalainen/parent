@@ -149,6 +149,11 @@
             </dependency>
             <dependency>
                 <groupId>org.vesalainen</groupId>
+                <artifactId>dns-server</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.vesalainen</groupId>
                 <artifactId>boat-server</artifactId>
                 <version>1.0.0</version>
             </dependency>
