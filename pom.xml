@@ -113,6 +113,11 @@
                 <version>1.1.2</version>
             </dependency>
             <dependency>
+                <groupId>org.vesalainen.parsers</groupId>
+                <artifactId>unit-parser</artifactId>
+                <version>1.1.2</version>
+            </dependency>
+            <dependency>
                 <groupId>org.vesalainen.kml</groupId>
                 <artifactId>KML22</artifactId>
                 <version>1.0.2</version>
@@ -130,6 +135,11 @@
             <dependency>
                 <groupId>org.vesalainen</groupId>
                 <artifactId>util</artifactId>
+                <version>1.8.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.vesalainen</groupId>
+                <artifactId>security</artifactId>
                 <version>1.8.0</version>
             </dependency>
             <dependency>
@@ -229,17 +239,32 @@
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-server</artifactId>
-                <version>9.3.6.v20151106</version>
+                <version>9.3.10.v20160621</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-servlet</artifactId>
-                <version>9.3.6.v20151106</version>
+                <version>9.3.10.v20160621</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-jmx</artifactId>
+                <version>9.3.10.v20160621</version>
             </dependency>
             <dependency>
                 <groupId>javax</groupId>
                 <artifactId>javaee-api</artifactId>
                 <version>7.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcprov-jdk15on</artifactId>
+                <version>1.54</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcpkix-jdk15on</artifactId>
+                <version>1.54</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
