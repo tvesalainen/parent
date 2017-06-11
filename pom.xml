@@ -119,6 +119,11 @@
                 <version>1.1.2</version>
             </dependency>
             <dependency>
+                <groupId>org.vesalainen.parsers</groupId>
+                <artifactId>coordinates</artifactId>
+                <version>1.1.2</version>
+            </dependency>
+            <dependency>
                 <groupId>org.vesalainen.kml</groupId>
                 <artifactId>KML22</artifactId>
                 <version>1.0.2</version>
