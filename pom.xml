@@ -60,7 +60,7 @@
             </dependency>
             <dependency>
                 <groupId>org.vesalainen.nmea</groupId>
-                <artifactId>router</artifactId>
+                <artifactId>nmea-router</artifactId>
                 <version>1.8.1</version>
             </dependency>
             <dependency>
@@ -131,7 +131,7 @@
             <dependency>
                 <groupId>org.vesalainen.gpx</groupId>
                 <artifactId>GPX11</artifactId>
-                <version>1.0.2</version>
+                <version>1.0.3</version>
             </dependency>
             <dependency>
                 <groupId>org.vesalainen.rss</groupId>
