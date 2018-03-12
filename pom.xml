@@ -45,6 +45,16 @@
         <dependencies>
             <dependency>
                 <groupId>org.vesalainen</groupId>
+                <artifactId>radiorecorder</artifactId>
+                <version>1.8.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.vesalainen</groupId>
+                <artifactId>ham</artifactId>
+                <version>1.8.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.vesalainen</groupId>
                 <artifactId>vfs</artifactId>
                 <version>1.8.1</version>
             </dependency>
@@ -131,6 +141,11 @@
             <dependency>
                 <groupId>org.vesalainen.parsers</groupId>
                 <artifactId>coordinates</artifactId>
+                <version>1.1.2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.vesalainen.parsers</groupId>
+                <artifactId>printf-parser</artifactId>
                 <version>1.1.2</version>
             </dependency>
             <dependency>
