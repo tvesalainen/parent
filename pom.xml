@@ -45,6 +45,11 @@
         <dependencies>
             <dependency>
                 <groupId>org.vesalainen</groupId>
+                <artifactId>jmx</artifactId>
+                <version>1.8.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.vesalainen</groupId>
                 <artifactId>can</artifactId>
                 <version>1.8.1</version>
             </dependency>
@@ -76,12 +81,12 @@
             <dependency>
                 <groupId>org.vesalainen.nmea</groupId>
                 <artifactId>parser</artifactId>
-                <version>1.8.2</version>
+                <version>1.8.3</version>
             </dependency>
             <dependency>
                 <groupId>org.vesalainen.nmea</groupId>
                 <artifactId>nmea-router</artifactId>
-                <version>1.8.2</version>
+                <version>1.8.3</version>
             </dependency>
             <dependency>
                 <groupId>org.vesalainen.nmea</groupId>
