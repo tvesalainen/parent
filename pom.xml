@@ -46,6 +46,11 @@
         <dependencies>
             <dependency>
                 <groupId>org.vesalainen</groupId>
+                <artifactId>maven-help</artifactId>
+                <version>1.8.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.vesalainen</groupId>
                 <artifactId>jmx</artifactId>
                 <version>1.8.1</version>
             </dependency>
@@ -380,16 +385,6 @@
                 <artifactId>pdfbox</artifactId>
                 <version>2.0.15</version>
             </dependency>
-            <dependency>
-                <groupId>net.e175.klaus</groupId>
-                <artifactId>solarpositioning</artifactId>
-                <version>0.0.9</version> <!-- or whatever latest release is -->
-            </dependency>
-            <dependency>
-                <groupId>com.infiniteautomation</groupId>
-                <artifactId>modbus4j</artifactId>
-                <version>3.0.3</version>
-            </dependency>            
         </dependencies>
     </dependencyManagement>
     <build>
@@ -440,28 +435,4 @@
             </plugin>        
         </plugins>
     </build>
-    <repositories>
-        <repository>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <id>ias-snapshots</id>
-            <name>Infinite Automation Snapshot Repository</name>
-            <url>https://maven.mangoautomation.net/repository/ias-snapshot/</url>
-        </repository>
-        <repository>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>ias-releases</id>
-            <name>Infinite Automation Release Repository</name>
-            <url>https://maven.mangoautomation.net/repository/ias-release/</url>
-        </repository>
-    </repositories>    
 </project>
